@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Trainer - Start</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="container">
+        <h1>Learning Trainer</h1>
+        
+        <!-- Display completion message if quiz was just completed -->
+        <div th:if="${completionMessage}" class="completion-message">
+            <p th:text="${completionMessage}">Completion message</p>
+        </div>
+        
+        <p class="subtitle">Select a question catalog to begin</p>
+        
+        <div class="button-container">
+            <a th:href="@{/quiz(type='UBI')}" class="btn btn-primary">
+                <div class="btn-title">UBI Fragenkatalog</div>
+                <div class="btn-subtitle">Binnenschifffahrtsfunk</div>
+            </a>
+            
+            <a th:href="@{/quiz(type='SRC')}" class="btn btn-primary">
+                <div class="btn-title">SRC Fragenkatalog</div>
+                <div class="btn-subtitle">Seefunkdienst</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

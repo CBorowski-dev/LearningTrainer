@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Learning Trainer</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="container">
+        <!-- Progress indicator -->
+        <div class="progress-bar">
+            <div class="progress-text">
+                <span>Progress: <span th:text="${answeredCount}">0</span> / <span th:text="${totalCount}">0</span></span>
+                <a th:href="@{/}" class="home-link">← Back to Start</a>
+            </div>
+        </div>
+        
+        <!-- Question -->
+        <h2 class="question-text" th:text="${question.question}">Question text</h2>
+        
+        <!-- Answer form -->
+        <form id="quizForm">
+            <input type="hidden" id="questionId" th:value="${question.id}">
+            <input type="hidden" id="questionType" th:value="${type}">
+            
+            <div class="answers">
+                <div th:each="answer, iterStat : ${question.answers}" class="answer-option">
+                    <label th:for="'answer' + ${iterStat.index}" class="answer-label">
+                        <input type="radio" 
+                               th:id="'answer' + ${iterStat.index}"
+                               name="answer" 
+                               th:value="${answer.text}"
+                               class="answer-radio">
+                        <span class="answer-text" th:text="${answer.text}">Answer text</span>
+                    </label>
+                </div>
+            </div>
+            
+            <button type="button" id="checkBtn" disabled class="btn btn-primary btn-check">
+                Check Answer
+            </button>
+        </form>
+    </div>
+    
+    <script th:src="@{/js/quiz.js}"></script>
+</body>
+</html>
