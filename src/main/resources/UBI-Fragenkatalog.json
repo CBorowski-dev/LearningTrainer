@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "1",
+    "question": "Was ist Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Internationaler mobiler UKW/VHF- Sprechfunkdienst auf Binnenschifffahrtsstraßen", "is_correct": true },
+      { "text": "Nationaler mobiler UKW/VHF-Sprechfunkdienst auf Binnenschifffahrtsstraßen", "is_correct": false },
+      { "text": "Internationales UKW/VHF-Sprechfunkverfahren im Binnenbereich", "is_correct": false },
+      { "text": "Nationales UKW/VHF-Sprechfunkverfahren im Binnenbereich", "is_correct": false }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Wozu dient der Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Funkverkehr für bestimmte Zwecke auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren", "is_correct": true },
+      { "text": "Funkverkehr für Schiffsfunkstellen zu bestimmten Zwecken auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren", "is_correct": false },
+      { "text": "Funkverkehr zu Landfunkstellen für bestimmte Zwecke auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren", "is_correct": false },
+      { "text": "Funkverkehr für Schiffsfunkstellen über Landfunkstellen auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren", "is_correct": false }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Wo findet man Angaben über die grundsätzlichen Regelungen für den Binnenschifffahrtsfunk in Europa?",
+    "answers": [
+      { "text": "Regionale Vereinbarung über den Binnenschifffahrtsfunk (RAINWAT)", "is_correct": true },
+      { "text": "International Convention for the Safety of Life at Sea (SOLAS)", "is_correct": false },
+      { "text": "Verwaltungsvereinbarung über die Koordinierung von Frequenzen (HCM)", "is_correct": false },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Was ist eine „ortsfeste Funkstelle“?",
+    "answers": [
+      { "text": "Funkstelle, die an Land betrieben wird", "is_correct": true },
+      { "text": "Funkstelle, die von der Fernmeldebehörde betrieben wird", "is_correct": false },
+      { "text": "Funkstelle, die an Bord eines nicht dauernd festgemachten Binnenschiffes betrieben wird", "is_correct": false },
+      { "text": "Funkstelle, die im Verkehrskreis Funkverkehr an Bord betrieben wird", "is_correct": false }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Was ist eine „Revierzentrale“?",
+    "answers": [
+      { "text": "Zentrale Landfunkstelle des Verkehrskreises Nautische Information", "is_correct": true },
+      { "text": "Zentrale Schiffsfunkstelle der Wasserstraßen- und Schifffahrtsverwaltung", "is_correct": false },
+      { "text": "Zentrale Telematikdienste zur Datenübermittlung von AIS", "is_correct": false },
+      { "text": "Zentrale Seefunkstelle zur Schiffslenkung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Was ist ein „Verkehrsposten“?",
+    "answers": [
+      { "text": "Zentrale ortsfeste Funkstelle in den Niederlanden", "is_correct": true },
+      { "text": "Zentrale mobile Funkstelle in den Niederlanden", "is_correct": false },
+      { "text": "Zentrale ortsfeste Funkstelle in den Niederlanden und in Frankreich", "is_correct": false },
+      { "text": "Zentrale mobile Funkstelle in den Niederlanden und in Frankreich", "is_correct": false }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Was ist ein „Blockkanal“?",
+    "answers": [
+      { "text": "Funkkanal für sicherheitsrelevante Meldungen der Verkehrsposten und Schiffsfunkstellen in den Niederlanden", "is_correct": true },
+      { "text": "Funkkanal für Routinegespräche der Verkehrsposten und Schiffsfunkstellen in den Niederlanden", "is_correct": false },
+      { "text": "Gesperrter Funkkanal der Verkehrsposten und Verkehrszentralen in den Niederlanden", "is_correct": false },
+      { "text": "Funkkanal für öffentlichen Nachrichtenaustausch zwischen den Verkehrsposten in den Niederlanden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Was bedeutet „MIB“?",
+    "answers": [
+      { "text": "Melde- und Informationssystem in der Binnenschifffahrt", "is_correct": true },
+      { "text": "Maritimes Identifikationssystem in der Binnenschifffahrt", "is_correct": false },
+      { "text": "Mobiles Informationssystem in der Binnenschifffahrt", "is_correct": false },
+      { "text": "Melde- und Identifikationssystem in der Binnenschifffahrt", "is_correct": false }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Wo darf der Inhaber eines in Deutschland erworbenen UKW-Sprechfunk- zeugnisses für den Binnenschifffahrtsfunk am Funkverkehr teilnehmen?",
+    "answers": [
+      { "text": "In allen Ländern, die der Regionalen Vereinbarung über den Binnenschifffahrtsfunk beigetreten sind", "is_correct": true },
+      { "text": "In allen Mitgliedstaaten der EU", "is_correct": false },
+      { "text": "In allen Staaten, die die Vollzugsordnung für den Funkdienst ratifiziert haben", "is_correct": false },
+      { "text": "In allen deutschsprachigen Ländern", "is_correct": false }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Wo berechtigt das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI) auch zur Teilnahme am mobilen Seefunkdienst?",
+    "answers": [
+      { "text": "Wasserstraßen der Zonen 1 bis 2", "is_correct": true },
+      { "text": "Wasserstraßen der Zonen 2 bis 4", "is_correct": false },
+      { "text": "Wasserstraßen der Zonen 1 bis 4", "is_correct": false },
+      { "text": "Wasserstraßen der Zonen 2 bis 3", "is_correct": false }
+    ]
+  },
+  {
+    "id": "11",
+    "question": "Wer erteilt neben der zuständigen Stelle des Bundes das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)?",
+    "answers": [
+      { "text": "Prüfungsausschüsse des Deutschen Motoryachtverbandes e. V. (DMYV) und des Deutschen Segler-Verbandes e. V. (DSV)", "is_correct": true },
+      { "text": "Bundesnetzagentur (BNetzA) und das Bundesamt für Seeschifffahrt und Hydrographie (BSH)", "is_correct": false },
+      { "text": "Zentrale Verwaltungsstelle (ZVST) und Generaldirektion Wasserstraßen und Schifffahrt (GDWS)", "is_correct": false },
+      { "text": "Wasserstraßen- und Schifffahrtsamt (WSA) und Bundesnetzagentur (BNetzA)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "12",
+    "question": "Welches Funkzeugnis berechtigt nicht zur Teilnahme am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS)?",
+    "answers": [
+      { "text": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)", "is_correct": true },
+      { "text": "Beschränkt Gültiges Funkbetriebszeugnis (SRC)", "is_correct": false },
+      { "text": "Allgemeines Funkbetriebszeugnis (LRC)", "is_correct": false },
+      { "text": "Allgemeines Betriebszeugnis für Funker (GOC)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "13",
+    "question": "Welches Funkzeugnis berechtigt nicht zur Teilnahme am Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Amateurfunkzeugnis", "is_correct": true },
+      { "text": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)", "is_correct": false },
+      { "text": "Allgemeines Sprechfunkzeugnis für den Seefunkdienst", "is_correct": false },
+      { "text": "Beschränkt gültiges Betriebszeugnis für Funker I (BZ I)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "14",
+    "question": "Worauf ist bei der Teilnahme am Binnenschifffahrtsfunk in anderen Ländern zu achten?",
+    "answers": [
+      { "text": "Die Bestimmungen im Regionalen Teil des Handbuchs Binnenschifffahrtsfunk sind zu beachten", "is_correct": true },
+      { "text": "Die Bestimmungen der Binnenschifffahrt-Sprechfunkverordnung sind zu beachten", "is_correct": false },
+      { "text": "Die Bestimmungen der EU-Kommission sind zu beachten", "is_correct": false },
+      { "text": "Die Bestimmungen der Binnenschifffahrtsstraßenordnung sind zu beachten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "15",
+    "question": "Wo findet man grundsätzliche Bestimmungen über den Sprechfunk auf den jeweiligen Bundeswasserstraßen?",
+    "answers": [
+      { "text": "Schifffahrtspolizeiverordnungen", "is_correct": true },
+      { "text": "Binnenschifffahrtspatentverordnung", "is_correct": false },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": false },
+      { "text": "Binnenschiffsuntersuchungsordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "16",
+    "question": "Wo findet man z. B. Angaben über die Ausrüstungspflicht mit Funkanlagen auf Binnenschiffen?",
+    "answers": [
+      { "text": "Binnenschifffahrtstraßenordnung", "is_correct": true },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": false },
+      { "text": "Binnenschifferpatentverordnung", "is_correct": false },
+      { "text": "Schiffssicherheitsverordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "17",
+    "question": "Wo findet man Angaben über die Funkbenutzungspflicht für Fahrzeuge auf bestimmten Binnenschifffahrtsstraßen?",
+    "answers": [
+      { "text": "Regionale Teile des Handbuchs Binnenschifffahrtsfunk", "is_correct": true },
+      { "text": "Allgemeiner Teil des Handbuchs Binnenschifffahrtsfunk", "is_correct": false },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": false },
+      { "text": "Binnenschifferpatentverordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "18",
+    "question": "Das Abhörverbot und das Fernmeldegeheimnis sind geregelt...",
+    "answers": [
+      { "text": "im Telekommunikationsgesetz (TKG)", "is_correct": true },
+      { "text": "in der Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)", "is_correct": false },
+      { "text": "in der Schiffssicherheitsverordnung (SchSV)", "is_correct": false },
+      { "text": "im Gesetz über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "19",
+    "question": "Was unterliegt dem Fernmeldegeheimnis?",
+    "answers": [
+      { "text": "Inhalt des Funkverkehrs und seine näheren Umstände, insbesondere die Tatsache, ob jemand an der Abwicklung des Funkverkehrs beteiligt ist oder war", "is_correct": true },
+      { "text": "Inhalt des Funkverkehrs und seine näheren Umstände, insbesondere konkrete Daten wie z. B. der ATIS-Code", "is_correct": false },
+      { "text": "Inhalt des Funkverkehrs und seine näheren Umstände, sofern es sich um Nachrichtenaustausch mit einer Revierzentrale handelt", "is_correct": false },
+      { "text": "Inhalt des Funkverkehrs und seine näheren Umstände, sofern es sich um Nachrichtenaustausch im Rahmen des Not-, Dringlichkeits- und Sicherheitsverkehrs handelt", "is_correct": false }
+    ]
+  },
+  {
+    "id": "20",
+    "question": "Welche Nachrichten dürfen uneingeschränkt aufgenommen und verbreitet werden?",
+    "answers": [
+      { "text": "Aussendungen, die „An alle Funkstellen“ gerichtet sind", "is_correct": true },
+      { "text": "Aussendungen des Öffentlichen Nachrichtenaustauschs", "is_correct": false },
+      { "text": "Aussendungen im Verkehrskreis Funkverkehr an Bord", "is_correct": false },
+      { "text": "Aussendungen im Binnenschifffahrtsfunk dürfen uneingeschränkt aufgenommen und verbreitet werden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "21",
+    "question": "Welche Folgen kann die Verletzung des Fernmeldegeheimnisses haben?",
+    "answers": [
+      { "text": "Strafrechtliche Verfolgung", "is_correct": true },
+      { "text": "Ordnungswidrigkeitsverfahren", "is_correct": false },
+      { "text": "Schriftliche Verwarnung", "is_correct": false },
+      { "text": "Einzug der Funkanlage", "is_correct": false }
+    ]
+  },
+  {
+    "id": "22",
+    "question": "Welchen Frequenzbereich nutzt der Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Ultrakurzwelle (UKW/VHF)", "is_correct": true },
+      { "text": "Kurzwelle (KW/HF)", "is_correct": false },
+      { "text": "Grenzwelle (GW/MF)", "is_correct": false },
+      { "text": "Langwelle (LW/LF)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "23",
+    "question": "Wie breiten sich Ultrakurzwellen aus?",
+    "answers": [
+      { "text": "Geradlinig und quasioptisch", "is_correct": true },
+      { "text": "Abhängig von der Tageszeit", "is_correct": false },
+      { "text": "Der Erdkrümmung folgend bis weit hinter den Horizont", "is_correct": false },
+      { "text": "In der lonosphäre reflektiert", "is_correct": false }
+    ]
+  },
+  {
+    "id": "24",
+    "question": "Welche Faktoren können die Ausbreitung der Ultrakurzwellen beeinflussen?",
+    "answers": [
+      { "text": "Hindernisse, z. B. Berge oder hohe Bauwerke", "is_correct": true },
+      { "text": "Niederschläge, z. B. Schnee- oder Regenschauer", "is_correct": false },
+      { "text": "Tag- und Nachtschwankungen", "is_correct": false },
+      { "text": "Kurs und Geschwindigkeit des Schiffes", "is_correct": false }
+    ]
+  },
+  {
+    "id": "25",
+    "question": "Was ist eine „Schiffsfunkstelle“?",
+    "answers": [
+      { "text": "Mobile Funkstelle des Binnenschifffahrtsfunks", "is_correct": true },
+      { "text": "Mobile Funkstelle des mobilen Seefunkdienstes", "is_correct": false },
+      { "text": "Ortsfeste Funkstelle des Binnenschifffahrtsfunks", "is_correct": false },
+      { "text": "Ortsfeste Funkstelle des mobilen Seefunkdienstes", "is_correct": false }
+    ]
+  },
+  {
+    "id": "26",
+    "question": "Was ist eine „Seefunkstelle“?",
+    "answers": [
+      { "text": "Funkstelle des Mobilen Seefunkdienstes an Bord eines nicht dauernd verankerten Seefahrzeuges", "is_correct": true },
+      { "text": "Funkstelle des Mobilen Seefunkdienstes, die an Land als Küstenfunkstelle betrieben wird", "is_correct": false },
+      { "text": "Funkstelle des Binnenschifffahrtsfunks, die im Seebereich an Bord eines Seeschiffes betrieben wird", "is_correct": false },
+      { "text": "Funkstelle des Mobilen Seefunkdienstes, die im Verkehrskreis Nautische Information betrieben wird", "is_correct": false }
+    ]
+  },
+  {
+    "id": "27",
+    "question": "Wer darf eine Schiffsfunkstelle bedienen?",
+    "answers": [
+      { "text": "Inhaber eines gültigen Sprechfunkzeugnisses für den Binnenschifffahrtsfunk (UBI) oder eines gleichwertigen Zeugnisses", "is_correct": true },
+      { "text": "Personen, die ohne Aufsicht eines Funkzeugnisinhabers am Funkverkehr teilnehmen, sofern sie älter als 16 Jahre sind", "is_correct": false },
+      { "text": "Nur der Schiffsführer, sofern er über ein gültiges Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI) verfügt", "is_correct": false },
+      { "text": "Personen, die über einen gültigen Sportbootführerschein-Binnen und über die Erlaubnis des Schiffsführers verfügen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "28",
+    "question": "Wer stellt in Deutschland die Zuteilungsurkunde (Ship Station Licence) für eine Schiffsfunkstelle aus?",
+    "answers": [
+      { "text": "Bundesnetzagentur (BNetzA)", "is_correct": true },
+      { "text": "Bundesamt für Seeschifffahrt und Hydrographie (BSH)", "is_correct": false },
+      { "text": "Generaldirektion Wasserstraßen und Schifffahrt (GDWS)", "is_correct": false },
+      { "text": "Wasserstraßen- und Schifffahrtsamt (WSA)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "29",
+    "question": "Der Betrieb einer Schiffsfunkstelle ohne Zuteilungsurkunde (Ship Station Licence) verstößt gegen Vorschriften...",
+    "answers": [
+      { "text": "des Telekommunikationsgesetzes (TKG)", "is_correct": true },
+      { "text": "der Binnenschifffahrtstraßenordnung (BinSchStro)", "is_correct": false },
+      { "text": "des Gesetzes über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)", "is_correct": false },
+      { "text": "der Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "30",
+    "question": "Die Bedienung einer Schiffsfunkstelle ohne Erlaubnis (UKW-Sprechfunkzeugnis) verstößt gegen Vorschriften...",
+    "answers": [
+      { "text": "der Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)", "is_correct": true },
+      { "text": "der Binnenschifffahrtstraßenordnung (BinSchStro)", "is_correct": false },
+      { "text": "des Gesetzes über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)", "is_correct": false },
+      { "text": "des Telekommunikationsgesetzes (TKG)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "31",
+    "question": "Welches amtliche Dokument für eine Schiffsfunkstelle muss sich an Bord befinden?",
+    "answers": [
+      { "text": "Zuteilungsurkunde (Ship Station Licence)", "is_correct": true },
+      { "text": "UKW-Sprechfunkzeugnis (UBI)", "is_correct": false },
+      { "text": "UKW-Betriebszeugnis", "is_correct": false },
+      { "text": "Zulassungsurkunde", "is_correct": false }
+    ]
+  },
+  {
+    "id": "32",
+    "question": "Die telekommunikationsrechtliche Überprüfung einer Schiffsfunkstelle wird durchgeführt von...",
+    "answers": [
+      { "text": "Bundesnetzagentur (BNetzA)", "is_correct": true },
+      { "text": "Bundesamt für Seeschifffahrt und Hydrographie (BSH)", "is_correct": false },
+      { "text": "Generaldirektion Wasserstraßen und Schifffahrt (GDWS)", "is_correct": false },
+      { "text": "Wasserstraßen- und Schifffahrtsamt (WSA)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "33",
+    "question": "Wer ist bei Eignerwechsel eines Binnenschiffes in Bezug auf die Schiffsfunkstelle zu benachrichtigen?",
+    "answers": [
+      { "text": "Bundesnetzagentur (BNetzA)", "is_correct": true },
+      { "text": "Bundesamt für Seeschifffahrt und Hydrographie (BSH)", "is_correct": false },
+      { "text": "Generaldirektion Wasserstraßen und Schifffahrt (GDWS)", "is_correct": false },
+      { "text": "Wasserstraßen- und Schifffahrtsamt (WSA)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "34",
+    "question": "Wer ist bei technischen Änderungen an einer Schiffsfunkstelle, z. B. bei Änderung des Gerätebestands, schriftlich zu informieren?",
+    "answers": [
+      { "text": "Bundesnetzagentur (BNetzA)", "is_correct": true },
+      { "text": "Bundesamt für Seeschifffahrt und Hydrographie (BSH)", "is_correct": false },
+      { "text": "Generaldirektion Wasserstraßen und Schifffahrt (GDWS)", "is_correct": false },
+      { "text": "Wasserstraßen- und Schifffahrtsamt (WSA)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "35",
+    "question": "Wer kann die Einstellung des Betriebes einer Schiffsfunkstelle anordnen?",
+    "answers": [
+      { "text": "Bundesnetzagentur (BNetzA)", "is_correct": true },
+      { "text": "Bundesamt für Seeschifffahrt und Hydrographie (BSH)", "is_correct": false },
+      { "text": "Generaldirektion Wasserstraßen und Schifffahrt (GDWS)", "is_correct": false },
+      { "text": "Wasserstraßen- und Schifffahrtsamt (WSA)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "36",
+    "question": "Welche Teile des Handbuchs Binnenschifffahrtsfunk müssen bei einer Schiffsfunkstelle mitgeführt werden?",
+    "answers": [
+      { "text": "Allgemeiner Teil sowie Regionale Teile für die Strecken, in denen die Schiffsfunkstelle am Binnenschifffahrtsfunk teilnimmt", "is_correct": true },
+      { "text": "Regionale Teile für die Strecke, in der sich die Schiffsfunkstelle gerade befindet", "is_correct": false },
+      { "text": "Regionale Teile für alle europäischen Wasserstraßen", "is_correct": false },
+      { "text": "Allgemeiner Teil sowie Regionale Teile des Landes, in dem die Schiffsfunkstelle angemeldet wurde", "is_correct": false }
+    ]
+  },
+  {
+    "id": "37",
+    "question": "Woraus besteht das Rufzeichen für eine deutsche Schiffsfunkstelle?",
+    "answers": [
+      { "text": "Zwei Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von vier Ziffern", "is_correct": true },
+      { "text": "Vier Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von vier Ziffern", "is_correct": false },
+      { "text": "Zwei Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von zwei Ziffern", "is_correct": false },
+      { "text": "Vier Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von zwei Ziffern", "is_correct": false }
+    ]
+  },
+  {
+    "id": "38",
+    "question": "Welches der nachfolgend angegebenen Rufzeichen kennzeichnet eine Schiffsfunkstelle?",
+    "answers": [
+      { "text": "DA 5005", "is_correct": true },
+      { "text": "DABC 55", "is_correct": false },
+      { "text": "DA5 OBC", "is_correct": false },
+      { "text": "DA 505B", "is_correct": false }
+    ]
+  },
+  {
+    "id": "39",
+    "question": "Was bedeutet „ATIS“?",
+    "answers": [
+      { "text": "Automatisches Senderidentifizierungssystem", "is_correct": true },
+      { "text": "Automatisches Schiffsidentifizierungssystem", "is_correct": false },
+      { "text": "Automatisches Verkehrsinformationssystem", "is_correct": false },
+      { "text": "Automatisches Transponderabfragesystem", "is_correct": false }
+    ]
+  },
+  {
+    "id": "40",
+    "question": "Welchem Zweck dient die Aussendung eines ATIS-Codes?",
+    "answers": [
+      { "text": "Identifizierung einer Schiffsfunkstelle", "is_correct": true },
+      { "text": "Identifizierung einer Seefunkstelle", "is_correct": false },
+      { "text": "Identifizierung des Bedieners der Schiffsfunkstelle", "is_correct": false },
+      { "text": "Identifizierung des Verkehrskreises", "is_correct": false }
+    ]
+  },
+  {
+    "id": "41",
+    "question": "Wie setzt sich der ATIS-Code zusammen?",
+    "answers": [
+      { "text": "Aus 10 Ziffern: der Ziffer 9, der dreistelligen Seefunkkennzahl (MID) und 6 Ziffern", "is_correct": true },
+      { "text": "Aus 10 Ziffern: der dreistelligen Seefunkkennzahl (MID), und 6 Ziffern", "is_correct": false },
+      { "text": "Aus 10 Ziffern: der Ziffer 9, zwei Nullen, der dreistelligen Seefunkkennzahl (MID) und 4 Ziffern", "is_correct": false },
+      { "text": "Aus 10 Ziffern: zwei Nullen, der dreistelligen Seefunkkennzahl (MID) und 5 Ziffern", "is_correct": false }
+    ]
+  },
+  {
+    "id": "42",
+    "question": "Wann wird das ATIS-Signal ausgesendet?",
+    "answers": [
+      { "text": "Automatisch nach dem Loslassen der Sprechtaste", "is_correct": true },
+      { "text": "Automatisch beim Drücken der Sprechtaste", "is_correct": false },
+      { "text": "Automatisch alle 10 Minuten", "is_correct": false },
+      { "text": "Automatisch beim Kanalwechsel", "is_correct": false }
+    ]
+  },
+  {
+    "id": "43",
+    "question": "Welchen ATIS-Code sendet eine tragbare Funkanlage aus?",
+    "answers": [
+      { "text": "ATIS-Code der Schiffsfunkstelle, zu der sie gehört", "is_correct": true },
+      { "text": "ATIS-Code, der ihr gesondert mit der Zuteilungsurkunde (Ship Station Licence) zugewiesen wurde", "is_correct": false },
+      { "text": "ATIS-Code der ortsfesten Funkstelle", "is_correct": false },
+      { "text": "ATIS-Code der Schiffsfunkstelle und die Gerätenummer", "is_correct": false }
+    ]
+  },
+  {
+    "id": "44",
+    "question": "Was ist ein „ATIS-Killer“?",
+    "answers": [
+      { "text": "Zusatzeinrichtung in der Funkanlage zur akustischen Unterdrückung des empfangenen ATIS-Signals", "is_correct": true },
+      { "text": "Zusatzeinrichtung in der Funkanlage zur optischen Unterdrückung des empfangenen ATIS-Signals", "is_correct": false },
+      { "text": "Zusatzeinrichtung in der Funkanlage zur Unterdrückung der versehentlichen Aussendung des ATIS-Signals", "is_correct": false },
+      { "text": "Zusatzeinrichtung in der Funkanlage zur Unterdrückung der Aussendung des ATIS-Signals", "is_correct": false }
+    ]
+  },
+  {
+    "id": "45",
+    "question": "Was versteht man unter „AIS“?",
+    "answers": [
+      { "text": "Automatisches Schiffsidentifizierungs- und Überwachungssystem, das statische, dynamische und reisebezogene Informationen auf UKW überträgt", "is_correct": true },
+      { "text": "Allgemeines Informationssystem für die Binnenschifffahrt", "is_correct": false },
+      { "text": "Automatische Aussendung der Kennung eines Binnenschiffes beim Loslassen der Sprechtaste", "is_correct": false },
+      { "text": "Identifizierung eines Schiffes mit Hilfe von Radarpeilungen und deren Weitergabe an die Schifffahrt zur Kollisionsverhütung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "46",
+    "question": "Welche Informationen werden bei AIS automatisch ausgetauscht?",
+    "answers": [
+      { "text": "Statische Informationen (z. B. Schiffsname), dynamische Informationen (z. B. Kurs) und reisebezogene Informationen (z. B. Bestimmungsort)", "is_correct": true },
+      { "text": "Statische Informationen (z. B. Schiffsname), notfallbezogene Informationen (z. B. Notalarme) und reisebezogene Informationen (z. B. Bestimmungsort)", "is_correct": false },
+      { "text": "Statische Informationen (z. B. Schiffsname), reisebezogene Informationen (z. B. Bestimmungsort) und dringende Informationen (z. B. Treibstoffmangel)", "is_correct": false },
+      { "text": "Statische Informationen (z. B. Schiffsname), dynamische Informationen (z. B. Kurs) und notfallbezogene Informationen (z. B. Notalarme)", "is_correct": false }
+    ]
+  },
+  {
+    "id": "47",
+    "question": "Was ist beim Betrieb einer Amateurfunkstelle an Bord eines Binnenschiffes, das mit einer Schiffsfunkstelle ausgerüstet ist, zu beachten?",
+    "answers": [
+      { "text": "Die Amateurfunkstelle darf nur mit Zustimmung des Schiffsführers betrieben werden und keine schädlichen Störungen bei der Schiffsfunkstelle oder bei sonstigen nautischen und technischen Einrichtungen des Fahrzeugs verursachen.", "is_correct": true },
+      { "text": "Die Amateurfunkstelle darf nur mit Zustimmung des Schiffsführers und zur Vermeidung von schädlichen Störungen nur mit einer Leistung von bis zu 5 Watt betrieben werden", "is_correct": false },
+      { "text": "Die Amateurfunkstelle darf nur mit Zustimmung der Revierzentrale betrieben werden und keine schädlichen Störungen bei der Schiffsfunkstelle oder bei sonstigen nautischen und technischen Einrichtungen des Fahrzeugs verursachen", "is_correct": false },
+      { "text": "Die Amateurfunkstelle darf nur nach Eintragung in die Zuteilungsurkunde (Ship Station Licence) der Schiffsfunkstelle betrieben werden und keine schädlichen Störungen bei der Schiffsfunkstelle oder bei sonstigen nautischen und technischen Einrichtungen des Fahrzeugs verursachen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "48",
+    "question": "Was bedeutet die Angabe „Betriebsspannung 10,8 – 14,6 V=“ in der Bedienungsanleitung für eine Funkanlage?",
+    "answers": [
+      { "text": "Es ist eine Gleichspannung zwischen 10,8 und 14,6 Volt für den Betrieb erforderlich", "is_correct": true },
+      { "text": "Es ist eine Wechselspannung zwischen 10,8 und 14,6 Volt für den Betrieb erforderlich", "is_correct": false },
+      { "text": "Es ist eine Gleichspannung von 12,7 Volt (Mittelwert zwischen 10,8 und 14,6 Volt) für den Betrieb erforderlich.", "is_correct": false },
+      { "text": "Es ist eine Wechselspannung von 12,7 Volt (Mittelwert zwischen 10,8 und 14,6 Volt) für den Betrieb erforderlich", "is_correct": false }
+    ]
+  },
+  {
+    "id": "49",
+    "question": "Was ist beim Kauf eines UKW-Sprechfunkgerätes für den Binnenschifffahrtsfunk zu beachten?",
+    "answers": [
+      { "text": "Das Funkgerät muss zugelassen oder für die Teilnahme am Binnenschifffahrtsfunk in Verkehr gebracht worden sein", "is_correct": true },
+      { "text": "Das Funkgerät muss funktionsfähig und für die Teilnahme am Binnenschifffahrtsfunk TÜV-geprüft sein", "is_correct": false },
+      { "text": "Das Funkgerät muss für die Teilnahme am Binnenschifffahrtsfunk eine ATIS Schnittstelle besitzen und Wetterberichte empfangen können", "is_correct": false },
+      { "text": "Das Funkgerät muss gemäß der Binnenschifffahrt-Sprechfunkverordnung für die Teilnahme am Binnenschifffahrtsfunk zugelassen sein", "is_correct": false }
+    ]
+  },
+  {
+    "id": "50",
+    "question": "Je höher die Antenne angebracht ist, desto...",
+    "answers": [
+      { "text": "größer ist die Reichweite", "is_correct": true },
+      { "text": "größer ist die erforderliche Sendeleistung", "is_correct": false },
+      { "text": "wetterunabhängiger ist der Funkverkehr", "is_correct": false },
+      { "text": "größer wird die Gefährdung von Personen in elektromagnetischen Feldern", "is_correct": false }
+    ]
+  },
+  {
+    "id": "51",
+    "question": "Bei einer Beschädigung der äußeren Isolierung (Mantel) des Antennenkabels sollte das Antennenkabel...",
+    "answers": [
+      { "text": "umgehend erneuert werden", "is_correct": true },
+      { "text": "bei Gelegenheit erneuert werden", "is_correct": false },
+      { "text": "umgehend hilfsweise durch ein Stromkabel ersetzt werden", "is_correct": false },
+      { "text": "bei Gelegenheit gegen eindringende Feuchtigkeit gesichert werden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "52",
+    "question": "Eine Schiffsfunkstelle empfängt auf allen UKW-Kanälen nur starkes Rauschen. Was könnte die mögliche Ursache für die Störung sein?",
+    "answers": [
+      { "text": "Die Antenne oder das Antennenkabel ist möglicherweise beschädigt", "is_correct": true },
+      { "text": "Der Empfang wird durch atmosphärische Störungen beeinträchtigt", "is_correct": false },
+      { "text": "Eine unbeabsichtigte Aussendung einer anderen Schiffsfunkstelle blockiert die UKW-Kanäle", "is_correct": false },
+      { "text": "Die Funkantenne wurde in zu geringer Nähe zur Radarantenne angebracht", "is_correct": false }
+    ]
+  },
+  {
+    "id": "53",
+    "question": "Worauf ist beim Austausch einer defekten UKW-Antenne bei einer Schiffsfunkstelle durch eine Ersatzantenne zu achten?",
+    "answers": [
+      { "text": "Die Ersatzantenne muss für den Frequenzbereich des Binnenschifffahrtsfunks ausgelegt sein", "is_correct": true },
+      { "text": "Die Ersatzantenne muss wettergeschützt angebracht werden", "is_correct": false },
+      { "text": "Die Ersatzantenne muss außerhalb des Abdeckungsbereichs des Radars angebracht werden", "is_correct": false },
+      { "text": "Die Ersatzantenne muss am höchsten Punkt des Fahrzeugs angebracht werden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "54",
+    "question": "Wozu dient am UKW-Gerät die Rauschsperre (Squelch)?",
+    "answers": [
+      { "text": "Die Wiedergabe des Empfängers wird nur bei einem brauchbaren Empfangssignal aktiviert", "is_correct": true },
+      { "text": "Das Rauschen kann stufenlos auf einen angenehmen Wert eingestellt werden", "is_correct": false },
+      { "text": "Die Rauschsperre verbessert die Wiedergabe von schwachen Empfangssignalen", "is_correct": false },
+      { "text": "Die Wiedergabe des Empfängers wird nur beim Empfang von Notsignalen aktiviert", "is_correct": false }
+    ]
+  },
+  {
+    "id": "55",
+    "question": "Wozu dient ein „Verkehrskreis“ im Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Zuordnung von Sprechfunk-Kanälen für bestimmte Zwecke", "is_correct": true },
+      { "text": "Zuordnung von Sprechfunk-Kanälen für bestimmte Schiffsfunkstellen", "is_correct": false },
+      { "text": "Zuordnung der Rangfolge von bestimmten Arten von Funkgesprächen", "is_correct": false },
+      { "text": "Zuordnung von Sprechfunk-Rufzeichen für bestimmte Funkstellen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "56",
+    "question": "Welche Verkehrskreise werden im Binnenschifffahrtsfunk betrieben?",
+    "answers": [
+      { "text": "Schiff - Schiff, Nautische Information, Schiff - Hafenbehörde, Funkverkehr an Bord", "is_correct": true },
+      { "text": "Schiff - Schiff, Schiff - Verkehrszentrale, Schiff - Hafenbehörde, Funkverkehr an Bord", "is_correct": false },
+      { "text": "Schiff - Schiff, Nautische Information, Schiff - Hafenbehörde, Schiff - Verkehrsposten", "is_correct": false },
+      { "text": "Schiff - Schiff, Nautische Information, Schiff - Hafenbehörde, Schiff - Landfunkstelle", "is_correct": false }
+    ]
+  },
+  {
+    "id": "57",
+    "question": "Wo findet man Angaben über die Verkehrskreise des Binnenschifffahrtsfunks?",
+    "answers": [
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": true },
+      { "text": "Regionaler Teil Deutschland des Handbuchs Binnenschifffahrtsfunk", "is_correct": false },
+      { "text": "Gesetz über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)", "is_correct": false },
+      { "text": "Binnenschifffahrtsstraßenordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "58",
+    "question": "Die Verkehrskreise „Nautische Information“ und „Schiff - Hafenbehörde“ werden...",
+    "answers": [
+      { "text": "nicht auf allen Bundeswasserstraßen angeboten", "is_correct": true },
+      { "text": "auf allen Bundeswasserstraßen angeboten", "is_correct": false },
+      { "text": "in Häfen und ausgewiesenen Liegestellen angeboten", "is_correct": false },
+      { "text": "auf dem Rhein, auf der Donau und auf der Mosel angeboten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "59",
+    "question": "Wozu dient der Verkehrskreis „Schiff - Schiff“?",
+    "answers": [
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen", "is_correct": true },
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen und Funkstellen der Behörden, die für die Betriebsdienste auf Binnenwasserstraßen zuständig sind", "is_correct": false },
+      { "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz", "is_correct": false },
+      { "text": "Funkverkehr zwischen Handfunkgeräten auf einem Schiff", "is_correct": false }
+    ]
+  },
+  {
+    "id": "60",
+    "question": "Welche Nachrichten werden im Verkehrskreis „Schiff - Schiff“ übermittelt?",
+    "answers": [
+      { "text": "Nachrichten, die sich auf den Schutz von Personen oder auf die Fahrt oder auf die Sicherheit von Schiffen beziehen", "is_correct": true },
+      { "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung zwischen Schiffsfunkstellen und Landfunkstellen", "is_correct": false },
+      { "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen", "is_correct": false },
+      { "text": "Nachrichten über schiffsbetriebliche Angelegenheiten, die sich auf die Sicherheit von Schiffen beziehen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "61",
+    "question": "Welche Funkstelle ist nicht dem Verkehrskreis „Schiff-Schiff“ zugeordnet?",
+    "answers": [
+      { "text": "Duisburg Hafen", "is_correct": true },
+      { "text": "Segelyacht Robbe DA 5005", "is_correct": false },
+      { "text": "Spey Fähre", "is_correct": false },
+      { "text": "MS Mainz", "is_correct": false }
+    ]
+  },
+  {
+    "id": "62",
+    "question": "Welche Funkstelle kann am Verkehrskreis „Schiff-Schiff“ teilnehmen?",
+    "answers": [
+      { "text": "Segelyacht Robbe DA 5005", "is_correct": true },
+      { "text": "Lauenburg Schleuse", "is_correct": false },
+      { "text": "Duisburg Hafen", "is_correct": false },
+      { "text": "Minden Revierzentrale", "is_correct": false }
+    ]
+  },
+  {
+    "id": "63",
+    "question": "Wozu dient der Verkehrskreis „Nautische Information“?",
+    "answers": [
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen und Funkstellen der Behörden, denen der Betrieb der Bundeswasserstraßen obliegt", "is_correct": true },
+      { "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz", "is_correct": false },
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen", "is_correct": false },
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen und Landfunkstellen von Hafenbehörden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "64",
+    "question": "Welche Nachrichten werden im Verkehrskreis „Nautische Information“ übermittelt?",
+    "answers": [
+      { "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung", "is_correct": true },
+      { "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen", "is_correct": false },
+      { "text": "Nachrichten, die sich auf Funkverkehr zwischen Schiffsfunkstellen beziehen", "is_correct": false },
+      { "text": "Nachrichten über schiffsbetriebliche Angelegenheiten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "65",
+    "question": "Wodurch kann bei einem nicht funkausrüstungspflichtigen Fahrzeug die ununterbrochene Teilnahme am Verkehrskreis „Nautische Information“ sichergestellt werden?",
+    "answers": [
+      { "text": "Zusätzliche UKW-Funkanlage für den Binnenschifffahrtsfunk", "is_correct": true },
+      { "text": "Zweikanalüberwachung (Dual Watch)", "is_correct": false },
+      { "text": "Ununterbrochene Empfangsbereitschaft auf Kanal 10", "is_correct": false },
+      { "text": "Einschalten des Kanals der Funkstelle der zuständigen Hafenbehörde", "is_correct": false }
+    ]
+  },
+  {
+    "id": "66",
+    "question": "Welche Funkstelle ist nicht dem Verkehrskreis „Nautische Information“ zugeordnet?",
+    "answers": [
+      { "text": "Neuss Hafen", "is_correct": true },
+      { "text": "Iffezheim Schleuse", "is_correct": false },
+      { "text": "Gerstheim Ecluse", "is_correct": false },
+      { "text": "Oberwesel Revierzentrale", "is_correct": false }
+    ]
+  },
+  {
+    "id": "67",
+    "question": "Welche Funkstelle ist dem Verkehrskreis „Nautische Information“ zugeordnet?",
+    "answers": [
+      { "text": "Iffezheim Schleuse", "is_correct": true },
+      { "text": "Neuss Hafen", "is_correct": false },
+      { "text": "Diffenébrücke Mannheim", "is_correct": false },
+      { "text": "Mannheim Hafenschleuse", "is_correct": false }
+    ]
+  },
+  {
+    "id": "68",
+    "question": "Wozu dient der Verkehrskreis „Schiff - Hafenbehörde“?",
+    "answers": [
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen und Landfunkstellen von Hafenbehörden", "is_correct": true },
+      { "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz", "is_correct": false },
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen in Häfen", "is_correct": false },
+      { "text": "Funkverkehr an Bord eines Schiffes oder innerhalb einer Gruppe von Fahrzeugen, die geschleppt oder geschoben werden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "69",
+    "question": "Welche Nachrichten werden im Verkehrskreis „Schiff - Hafenbehörde“ übermittelt?",
+    "answers": [
+      { "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen", "is_correct": true },
+      { "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung", "is_correct": false },
+      { "text": "Nachrichten, die sich auf Funkverkehr zwischen Schiffsfunkstellen beziehen", "is_correct": false },
+      { "text": "Nachrichten über schiffsbetriebliche Angelegenheiten.", "is_correct": false }
+    ]
+  },
+  {
+    "id": "70",
+    "question": "Welchem Verkehrskreis ist die Landfunkstelle Düsseldorf Marina zugeordnet?",
+    "answers": [
+      { "text": "Schiff - Hafenbehörde", "is_correct": true },
+      { "text": "Schiff - Schiff", "is_correct": false },
+      { "text": "Nautische Information", "is_correct": false },
+      { "text": "Funkverkehr an Bord", "is_correct": false }
+    ]
+  },
+  {
+    "id": "71",
+    "question": "Welche Funkstelle ist nicht dem Verkehrskreis „Schiff-Hafenbehörde“ zugeordnet?",
+    "answers": [
+      { "text": "Gerstheim Ecluse", "is_correct": true },
+      { "text": "Mannheim Hafenschleuse", "is_correct": false },
+      { "text": "Segelyacht Robbe DA 5005", "is_correct": false },
+      { "text": "Duisburg Hafen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "72",
+    "question": "Welche Funkstelle ist dem Verkehrskreis „Schiff-Hafenbehörde“ zugeordnet?",
+    "answers": [
+      { "text": "Duisburg Hafen", "is_correct": true },
+      { "text": "Gerstheim Ecluse", "is_correct": false },
+      { "text": "Rothensee Hebewerk", "is_correct": false },
+      { "text": "Lauenburg Schleuse", "is_correct": false }
+    ]
+  },
+  {
+    "id": "73",
+    "question": "Wozu dient der Verkehrskreis „Funkverkehr an Bord“?",
+    "answers": [
+      { "text": "Funkverkehr an Bord eines Schiffes oder innerhalb einer Gruppe von Fahrzeugen, die geschleppt oder geschoben werden", "is_correct": true },
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen und Landfunkstellen von Hafenbehörden", "is_correct": false },
+      { "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz", "is_correct": false },
+      { "text": "Funkverkehr zwischen Schiffsfunkstellen in Häfen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "74",
+    "question": "Welche Nachrichten werden im Verkehrskreis „Funkverkehr an Bord“ übermittelt?",
+    "answers": [
+      { "text": "Nachrichten über schiffsbetriebliche Angelegenheiten sowie bei Anweisungen für das Arbeiten mit Leinen und für das Ankern", "is_correct": true },
+      { "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen", "is_correct": false },
+      { "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung zwischen Schiffsfunkstellen und Landfunkstellen", "is_correct": false },
+      { "text": "Nachrichten, die sich auf den Schutz von Personen und auf die Fahrt oder auf die Sicherheit von Schiffen beziehen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "75",
+    "question": "Welche UKW-Kanäle dürfen im Verkehrskreis „Funkverkehr an Bord“ benutzt werden?",
+    "answers": [
+      { "text": "15 und 17", "is_correct": true },
+      { "text": "72 und 77", "is_correct": false },
+      { "text": "06 und 16", "is_correct": false },
+      { "text": "18 und 22", "is_correct": false }
+    ]
+  },
+  {
+    "id": "76",
+    "question": "In welchem Verkehrskreis dürfen tragbare Funkanlagen in Deutschland benutzt werden?",
+    "answers": [
+      { "text": "Funkverkehr an Bord", "is_correct": true },
+      { "text": "Schiff - Hafenbehörde", "is_correct": false },
+      { "text": "Nautische Informationen", "is_correct": false },
+      { "text": "Schiff - Schiff", "is_correct": false }
+    ]
+  },
+  {
+    "id": "77",
+    "question": "Welche Fahrzeuge / Schiffe mit Schiffsfunkstellen dürfen nicht am Verkehrskreis „Funkverkehr an Bord“ teilnehmen?",
+    "answers": [
+      { "text": "Kleinfahrzeuge", "is_correct": true },
+      { "text": "Schlepp- und Schubschiffe", "is_correct": false },
+      { "text": "Behördenfahrzeuge", "is_correct": false },
+      { "text": "Fahrgastschiffe", "is_correct": false }
+    ]
+  },
+  {
+    "id": "78",
+    "question": "Welche Kennung müssen Schiffsfunkstellen in den Verkehrskreisen „Schiff - Schiff“, „Nautische Information“ und „Schiff - Hafenbehörde“ im Sprechfunkverkehr verwenden?",
+    "answers": [
+      { "text": "Schiffsname und Rufzeichen", "is_correct": true },
+      { "text": "ATIS-Kennung", "is_correct": false },
+      { "text": "Rufnummer im Seefunkdienst (MMSI)", "is_correct": false },
+      { "text": "Heimathafen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "79",
+    "question": "In welchen Verkehrskreisen müssen Schiffsfunkstellen, außer auf Kleinfahrzeugen, während der Fahrt empfangsbereit sein?",
+    "answers": [
+      { "text": "Mindestens in zwei der Verkehrskreise Schiff - Schiff, Nautische Information oder Schiff - Hafenbehörde", "is_correct": true },
+      { "text": "Mindestens in drei der Verkehrskreise Schiff - Schiff, Nautische Information, Funkverkehr an Bord oder Schiff - Hafenbehörde", "is_correct": false },
+      { "text": "Mindestens in einem der Verkehrskreise Schiff - Schiff, Nautische Information oder Schiff - Hafenbehörde", "is_correct": false },
+      { "text": "Mindestens abwechselnd in einem der Verkehrskreise Schiff - Schiff, Nautische Information, Funkverkehr an Bord oder Schiff - Hafenbehörde", "is_correct": false }
+    ]
+  },
+  {
+    "id": "80",
+    "question": "Wo findet man Regelungen über die Abwicklung des Binnenschifffahrtsfunks?",
+    "answers": [
+      { "text": "Allgemeiner Teil des Handbuchs Binnenschifffahrtsfunk", "is_correct": true },
+      { "text": "Regionaler Teil Deutschland des Handbuchs Binnenschifffahrtsfunk", "is_correct": false },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": false },
+      { "text": "Binnenschifffahrtsstraßenordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "81",
+    "question": "Wo findet man die empfohlenen fremdsprachlichen Redewendungen für die Abwicklung des Binnenschifffahrtsfunks?",
+    "answers": [
+      { "text": "Regionale Teile des Handbuchs Binnenschifffahrtsfunk", "is_correct": true },
+      { "text": "Allgemeiner Teil des Handbuchs Binnenschifffahrtsfunk", "is_correct": false },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": false },
+      { "text": "Binnenschifffahrtsstraßenordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "82",
+    "question": "Wozu dient die Internationale Buchstabiertafel im Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Zum Buchstabieren schwieriger Wörter, Namen und Bezeichnungen innerhalb von Meldungen, um Übermittlungsfehler zu vermeiden", "is_correct": true },
+      { "text": "Zum Buchstabieren schwieriger Wörter, Namen und Bezeichnungen, um die Vorschriften der Binnenschifffahrt-Sprechfunkverordnung zu erfüllen", "is_correct": false },
+      { "text": "Zum Buchstabieren schwieriger Wörter, Namen und Bezeichnungen, um die Wichtigkeit der buchstabierten Begriffe zu betonen", "is_correct": false },
+      { "text": "Zum Buchstabieren schwieriger Wörter, Namen und Bezeichnungen, um Informationen zu verschlüsseln", "is_correct": false }
+    ]
+  },
+  {
+    "id": "83",
+    "question": "Wo findet man Angaben über die UKW-Kanäle, die im Binnenschifffahrtsfunk in bestimmten Regionen benutzt werden sollen?",
+    "answers": [
+      { "text": "Regionale Teile des Handbuchs Binnenschifffahrtsfunk", "is_correct": true },
+      { "text": "Schifffahrtspolizeiverordnungen, z. B. Rheinschifffahrtspolizeiverordnung", "is_correct": false },
+      { "text": "Binnenschifffahrtsstraßenordnung", "is_correct": false },
+      { "text": "Binnenschifffahrt-Sprechfunkverordnung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "84",
+    "question": "Was bedeutet die Betriebsart „Simplex“?",
+    "answers": [
+      { "text": "Wechselsprechen", "is_correct": true },
+      { "text": "Gegensprechen", "is_correct": false },
+      { "text": "Sprechen über Ober- und Unterband", "is_correct": false },
+      { "text": "Sprechen mit einem Funkgerät", "is_correct": false }
+    ]
+  },
+  {
+    "id": "85",
+    "question": "Wie erfolgt die Verkehrsabwicklung in der Betriebsart „Simplex“?",
+    "answers": [
+      { "text": "Jeder Gesprächspartner kann entweder senden oder empfangen", "is_correct": true },
+      { "text": "Beide Gesprächspartner können gleichzeitig senden und empfangen", "is_correct": false },
+      { "text": "Nach den Vorgaben der Revierzentrale", "is_correct": false },
+      { "text": "Der Funkverkehr kann nur in Richtung Landfunkstelle-Schiffsfunkstelle betrieben werden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "86",
+    "question": "Was bedeutet die Betriebsart „Duplex“?",
+    "answers": [
+      { "text": "Gegensprechen", "is_correct": true },
+      { "text": "Wechselsprechen", "is_correct": false },
+      { "text": "Sprechen mit zwei Funkgeräten", "is_correct": false },
+      { "text": "Sprechen auf einer Frequenz", "is_correct": false }
+    ]
+  },
+  {
+    "id": "87",
+    "question": "Was bedeutet Semi-Duplex?",
+    "answers": [
+      { "text": "Wechselsprechen auf einem Duplex-Kanal", "is_correct": true },
+      { "text": "Wechselsprechen auf einem Simplex-Kanal", "is_correct": false },
+      { "text": "Gegensprechen auf einem Duplex-Kanal", "is_correct": false },
+      { "text": "Gegensprechen auf einem Simplex-Kanal", "is_correct": false }
+    ]
+  },
+  {
+    "id": "88",
+    "question": "Warum kann die Hörbereitschaft auf zwei Kanälen im Binnenschifffahrtsfunk nicht durch die Zweikanalüberwachung (Dual Watch) wahrgenommen werden?",
+    "answers": [
+      { "text": "Die Zweikanalüberwachung ermöglicht nicht den gleichzeitigen Empfang auf zwei Funkkanälen", "is_correct": true },
+      { "text": "Die Zweikanalüberwachung vermindert die Empfangsreichweite der Funkanlage", "is_correct": false },
+      { "text": "Die Zweikanalüberwachung wertet die ATIS-Kennungen anderer Funkstellen nicht aus", "is_correct": false },
+      { "text": "Die Zweikanalüberwachung funktioniert nur in bestimmten Verkehrskreisen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "89",
+    "question": "Wie erfolgt die Leistungsreduzierung beim Sendebetrieb einer Schiffsfunkstelle auf dem UKW-Kanal 10?",
+    "answers": [
+      { "text": "Automatisch", "is_correct": true },
+      { "text": "Manuell", "is_correct": false },
+      { "text": "Durch die Revierzentrale", "is_correct": false },
+      { "text": "Durch längeres Drücken der Sendetaste", "is_correct": false }
+    ]
+  },
+  {
+    "id": "90",
+    "question": "Mit welcher Leistung sendet eine Schiffsfunkstelle auf UKW-Kanal 10?",
+    "answers": [
+      { "text": "0,5 bis 1 Watt", "is_correct": true },
+      { "text": "2 bis 5 Watt", "is_correct": false },
+      { "text": "0,5 bis 25 Watt", "is_correct": false },
+      { "text": "10 bis 25 Watt", "is_correct": false }
+    ]
+  },
+  {
+    "id": "91",
+    "question": "Auf welchem UKW-Kanal müssen Schiffsfunkstellen - unabhängig von dem befahrenen Streckenabschnitt - während der Fahrt ständig empfangsbereit sein?",
+    "answers": [
+      { "text": "10", "is_correct": true },
+      { "text": "72", "is_correct": false },
+      { "text": "20", "is_correct": false },
+      { "text": "13", "is_correct": false }
+    ]
+  },
+  {
+    "id": "92",
+    "question": "Welcher UKW-Kanal darf im Binnenschifffahrtsfunk auf den Bundeswasserstraßen der Zonen 3 und 4 nicht benutzt werden?",
+    "answers": [
+      { "text": "16", "is_correct": true },
+      { "text": "72", "is_correct": false },
+      { "text": "10", "is_correct": false },
+      { "text": "77", "is_correct": false }
+    ]
+  },
+  {
+    "id": "93",
+    "question": "Wozu dienen im Binnenschifffahrtsfunk die UKW-Kanäle 72 und 77?",
+    "answers": [
+      { "text": "Funkverkehr sozialer Art", "is_correct": true },
+      { "text": "Nautische Absprachen", "is_correct": false },
+      { "text": "Funkverkehr mit einer Revierzentrale", "is_correct": false },
+      { "text": "Anrufe an eine Schleuse", "is_correct": false }
+    ]
+  },
+  {
+    "id": "94",
+    "question": "Welche UKW-Kanäle dürfen für „Nachrichten sozialer Art“ benutzt werden?",
+    "answers": [
+      { "text": "72 und 77", "is_correct": true },
+      { "text": "15 und 17", "is_correct": false },
+      { "text": "06 und 16", "is_correct": false },
+      { "text": "20 und 22", "is_correct": false }
+    ]
+  },
+  {
+    "id": "95",
+    "question": "Welche Fahrzeuge unterliegen auf bestimmten Wasserstraßen und an bestimmten Stellen einer Meldepflicht?",
+    "answers": [
+      { "text": "Gefahrgutschiffe und Sondertransporte", "is_correct": true },
+      { "text": "Motorfahrzeuge mit einer Gesamtlänge von mehr als 20 Metern", "is_correct": false },
+      { "text": "Fahrgastschiffe mit mehr als 20 Passagieren", "is_correct": false },
+      { "text": "Sportboote unter Segel", "is_correct": false }
+    ]
+  },
+  {
+    "id": "96",
+    "question": "Vor jeder Aussendung ist durch kurzzeitiges Öffnen der Rauschsperre sicherzustellen, dass...",
+    "answers": [
+      { "text": "kein anderer Funkverkehr gestört wird", "is_correct": true },
+      { "text": "die Sendeleistung auf 25 Watt eingestellt ist", "is_correct": false },
+      { "text": "die ATIS-Kennung zuvor ausgesendet wird", "is_correct": false },
+      { "text": "der DSC-Controller ausgeschaltet ist", "is_correct": false }
+    ]
+  },
+  {
+    "id": "97",
+    "question": "Die längere Aussendung einer anderen Schiffsfunkstelle auf Kanal 10 kann...",
+    "answers": [
+      { "text": "nicht unterbrochen werden", "is_correct": true },
+      { "text": "jederzeit unterbrochen werden", "is_correct": false },
+      { "text": "durch Schiffsfunkstellen desselben Verkehrskreises unterbrochen werden", "is_correct": false },
+      { "text": "jederzeit durch Landfunkstellen unterbrochen werden", "is_correct": false }
+    ]
+  },
+  {
+    "id": "98",
+    "question": "Längere Aussendungen auf Kanal 10 sollen vermieden werden, weil sie...",
+    "answers": [
+      { "text": "nicht durch andere Schiffsfunkstellen unterbrochen werden können", "is_correct": true },
+      { "text": "durch Landfunkstellen nur im Notfall unterbrochen werden können", "is_correct": false },
+      { "text": "den Empfang des ebenfalls im UKW-Bereich arbeitenden AIS stören können", "is_correct": false },
+      { "text": "in der Nähe von Landesgrenzen andere Funkdienste im Ausland stören können", "is_correct": false }
+    ]
+  },
+  {
+    "id": "99",
+    "question": "Was hat eine Schiffsfunkstelle im Verkehr mit einer Funkstelle des Verkehrskreises Nautische Information zu beachten?",
+    "answers": [
+      { "text": "Anweisungen der Funkstelle des Verkehrskreises Nautische Information sind zu befolgen", "is_correct": true },
+      { "text": "Nachrichten mit der Funkstelle des Verkehrskreises Nautische Information sind auf Kanal 16 auszutauschen", "is_correct": false },
+      { "text": "Sendeleistung ist zu reduzieren", "is_correct": false },
+      { "text": "Hörbereitschaft auf Kanal 13 ist sicherzustellen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "100",
+    "question": "Was kann die Funkverbindung zwischen einer Schiffsfunkstelle und einer Seefunkstelle beeinträchtigen?",
+    "answers": [
+      { "text": "Die Schiffsfunkstelle sendet auf bestimmten UKW-Kanälen nur mit automatisch reduzierter Leistung", "is_correct": true },
+      { "text": "Die Seefunkstelle sendet auf bestimmten UKW-Kanälen nur mit automatisch reduzierter Leistung", "is_correct": false },
+      { "text": "Die Schiffsfunkstelle kann die AIS-Aussendung der Seefunkstelle auf bestimmten UKW-Kanälen nicht auswerten", "is_correct": false },
+      { "text": "Die Seefunkstelle kann die ATIS-Aussendung der Schiffsfunkstelle auf bestimmten UKW-Kanälen nicht auswerten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "101",
+    "question": "Warum dürfen Seefunkstellen mit ihrer Seefunkanlage nicht am Binnenschifffahrtsfunk teilnehmen?",
+    "answers": [
+      { "text": "Seefunkanlagen verfügen weder über eine automatische Sendeleistungsreduzierung auf bestimmten UKW-Kanälen noch können sie einen ATIS-Code aussenden", "is_correct": true },
+      { "text": "Seefunkanlagen nutzen ein anderes Frequenzband als Binnenschifffahrtsfunkanlagen", "is_correct": false },
+      { "text": "Seefunkanlagen verfügen über einen DSC-Controller, der mit dem ATIS-System nicht kompatibel ist", "is_correct": false },
+      { "text": "Seefunkanlagen ermöglichen die Hörbereitschaft auf den UKW-Kanälen 16 und 70", "is_correct": false }
+    ]
+  },
+  {
+    "id": "102",
+    "question": "Die Verwendung des Digitalen Selektivrufs (DSC) ist ...",
+    "answers": [
+      { "text": "im Binnenschifffahrtsfunk nicht zulässig", "is_correct": true },
+      { "text": "eingeführt zur Verbindungsaufnahme mit anderen Schiffsfunkstellen", "is_correct": false },
+      { "text": "eingeführt zur Identifizierung von Schiffsfunkstellen", "is_correct": false },
+      { "text": "im Binnenschifffahrtsfunk zulässig für Notalarme", "is_correct": false }
+    ]
+  },
+  {
+    "id": "103",
+    "question": "Welche Sprache muss bei Verbindungen zwischen deutschen Schiffsfunk- stellen und ausländischen Landfunkstellen benutzt werden?",
+    "answers": [
+      { "text": "Sprache des Landes, in dem sich die Landfunkstelle befindet", "is_correct": true },
+      { "text": "Heimatsprache des Funkers", "is_correct": false },
+      { "text": "Vorrangig Englisch", "is_correct": false },
+      { "text": "Vorrangig Deutsch", "is_correct": false }
+    ]
+  },
+  {
+    "id": "104",
+    "question": "Was ist bei Testsendungen im Binnenschifffahrtsfunk zu beachten?",
+    "answers": [
+      { "text": "Die Aussendungen dürfen 10 Sekunden nicht überschreiten; sie müssen den Rufnamen der aussendenden Funkstelle enthalten, gefolgt von dem Wort „Test“", "is_correct": true },
+      { "text": "Die Aussendungen dürfen 20 Sekunden nicht überschreiten und müssen mit einer Kennung des Schiffes ausgestrahlt werden", "is_correct": false },
+      { "text": "Die Aussendungen dürfen nur einmal nach Einbau des Gerätes ohne Antenne erfolgen und müssen mit dem Wort „Test“ gekennzeichnet werden", "is_correct": false },
+      { "text": "Die Aussendungen dürfen nur außerhalb der Hoheitsgewässer erfolgen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "105",
+    "question": "Wann müssen Meldungen grundsätzlich bestätigt werden?",
+    "answers": [
+      { "text": "Auf Verlangen", "is_correct": true },
+      { "text": "Immer", "is_correct": false },
+      { "text": "Nie", "is_correct": false },
+      { "text": "Bei Verständigungsschwierigkeiten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "106",
+    "question": "Woran erkennt man beim Befahren von Binnenwasserstraßen, welcher UKW-Kanal im Schleusenbereich zu benutzen ist?",
+    "answers": [
+      { "text": "Tafelzeichen", "is_correct": true },
+      { "text": "Schwimmende Schifffahrtszeichen", "is_correct": false },
+      { "text": "Durchsage der Revierzentrale", "is_correct": false },
+      { "text": "Lichtzeichen der Schleuse", "is_correct": false }
+    ]
+  },
+  {
+    "id": "107",
+    "question": "Welche Bedeutung hat ein weißes Tafelzeichen mit rotem Rand und der schwarzen Aufschrift „UKW 20“ oder „VHF 20“?",
+    "answers": [
+      { "text": "Gebot, UKW-Kanal 20 zu benutzen", "is_correct": true },
+      { "text": "Gebot, eine Sendeleistung von 20 Watt zu gewährleisten", "is_correct": false },
+      { "text": "Hinweis, dass der Verkehrskreis Schiff-Schiff auf UKW-Kanal 20 abzuwickeln ist", "is_correct": false },
+      { "text": "Hinweis, dass der UKW-Kanal 20 für die Nutzung durch die Berufsschifffahrt vorgesehen ist", "is_correct": false }
+    ]
+  },
+  {
+    "id": "108",
+    "question": "Welche Bedeutung hat ein blaues Tafelzeichen mit der weißen Aufschrift „UKW 18“ oder „VHF 18“?",
+    "answers": [
+      { "text": "Hinweis auf den Nautischen Informationsfunk (NIF) auf UKW-Kanal 18", "is_correct": true },
+      { "text": "Gebot, UKW-Kanal 18 statt 10 für die Verkehrsabwicklung zu benutzen", "is_correct": false },
+      { "text": "Hinweis, dass der Verkehrskreis Schiff-Schiff auf UKW-Kanal 18 abzuwickeln ist", "is_correct": false },
+      { "text": "Hinweis, dass der UKW-Kanal 18 für die Nutzung durch die Sportschifffahrt vorgesehen ist", "is_correct": false }
+    ]
+  },
+  {
+    "id": "109",
+    "question": "Welche Landfunkstellen sind zur Einleitung von Rettungsmaßnahmen vorzugsweise anzurufen?",
+    "answers": [
+      { "text": "Revierzentralen", "is_correct": true },
+      { "text": "Rettungsleitstellen", "is_correct": false },
+      { "text": "Schiffsfunkstellen", "is_correct": false },
+      { "text": "Polizeifunkstellen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "110",
+    "question": "Wie ist die Rangfolge des Funkverkehrs im Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Notverkehr, Dringlichkeitsverkehr, Sicherheitsverkehr, Routineverkehr", "is_correct": true },
+      { "text": "Dringlichkeitsverkehr, Notverkehr, Sicherheitsverkehr, Routineverkehr", "is_correct": false },
+      { "text": "Sicherheitsverkehr, Dringlichkeitsverkehr, Notverkehr, Routineverkehr", "is_correct": false },
+      { "text": "Notverkehr, Dringlichkeitsverkehr, Routineverkehr, Sicherheitsverkehr", "is_correct": false }
+    ]
+  },
+  {
+    "id": "111",
+    "question": "Wie heißt das Notzeichen im Sprechfunk?",
+    "answers": [
+      { "text": "MAYDAY", "is_correct": true },
+      { "text": "PAN PAN", "is_correct": false },
+      { "text": "SOS", "is_correct": false },
+      { "text": "SECURITE", "is_correct": false }
+    ]
+  },
+  {
+    "id": "112",
+    "question": "Ein Notverkehr im Binnenschifffahrtsfunk muss eingeleitet werden, wenn eine unmittelbare Gefährdung von Mensch oder Schiff gegeben ist oder...",
+    "answers": [
+      { "text": "eine Gefahrenabwehr an Land notwendig ist", "is_correct": true },
+      { "text": "das Schiff manövrierunfähig ist", "is_correct": false },
+      { "text": "gefährliche Wetterlagen auftreten", "is_correct": false },
+      { "text": "eine Behinderung der Schifffahrt droht", "is_correct": false }
+    ]
+  },
+  {
+    "id": "113",
+    "question": "Welcher Funkverkehr ist einzuleiten, wenn sich an Bord eine lebensgefährlich verletzte Person befindet?",
+    "answers": [
+      { "text": "Notverkehr", "is_correct": true },
+      { "text": "Dringlichkeitsverkehr", "is_correct": false },
+      { "text": "Sicherheitsverkehr", "is_correct": false },
+      { "text": "Routineverkehr", "is_correct": false }
+    ]
+  },
+  {
+    "id": "114",
+    "question": "Welcher Funkverkehr ist einzuleiten, wenn eine Person über Bord gefallen ist?",
+    "answers": [
+      { "text": "Notverkehr", "is_correct": true },
+      { "text": "Dringlichkeitsverkehr", "is_correct": false },
+      { "text": "Sicherheitsverkehr", "is_correct": false },
+      { "text": "Routineverkehr", "is_correct": false }
+    ]
+  },
+  {
+    "id": "115",
+    "question": "Welcher Funkverkehr ist einzuleiten, wenn das Fahrzeug in gefährlicher Weise zu kentern droht?",
+    "answers": [
+      { "text": "Notverkehr", "is_correct": true },
+      { "text": "Dringlichkeitsverkehr", "is_correct": false },
+      { "text": "Sicherheitsverkehr", "is_correct": false },
+      { "text": "Routineverkehr", "is_correct": false }
+    ]
+  },
+  {
+    "id": "116",
+    "question": "Wer bestätigt eine Notmeldung im Verkehrskreis „Nautische Information“?",
+    "answers": [
+      { "text": "Ortsfeste Funkstelle", "is_correct": true },
+      { "text": "Behördenfahrzeug", "is_correct": false },
+      { "text": "In der Nähe befindliche Schiffsfunkstelle", "is_correct": false },
+      { "text": "Der Schiffsführer", "is_correct": false }
+    ]
+  },
+  {
+    "id": "117",
+    "question": "Wer bestätigt eine Notmeldung im Verkehrskreis „Schiff-Schiff“?",
+    "answers": [
+      { "text": "In der Nähe befindliche Schiffsfunkstelle", "is_correct": true },
+      { "text": "Ortsfeste Funkstelle", "is_correct": false },
+      { "text": "Verkehrsposten", "is_correct": false },
+      { "text": "Der Schiffsführer", "is_correct": false }
+    ]
+  },
+  {
+    "id": "118",
+    "question": "Was bedeuten die Worte MAYDAY RELAY?",
+    "answers": [
+      { "text": "Aussendung einer Notmeldung durch eine Funkstelle, die sich selbst nicht in Not befindet", "is_correct": true },
+      { "text": "Beendigung einer Notmeldung durch die Funkstelle, die den Notverkehr leitet", "is_correct": false },
+      { "text": "Bestätigung des Empfangs einer Notmeldung", "is_correct": false },
+      { "text": "Notmeldung an eine Landstation mit der Bitte um Leitung des Notverkehrs", "is_correct": false }
+    ]
+  },
+  {
+    "id": "119",
+    "question": "Was bedeuten die Worte SILENCE FINI?",
+    "answers": [
+      { "text": "Der Notverkehr ist beendet", "is_correct": true },
+      { "text": "Einer Funkstelle, die den Notverkehr stört, wird Funkstille geboten", "is_correct": false },
+      { "text": "Dringlichkeits- und Sicherheitsverkehr darf wieder aufgenommen werden", "is_correct": false },
+      { "text": "Alle Funkstellen müssen Funkstille einhalten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "120",
+    "question": "Was bedeuten die Worte SILENCE MAYDAY?",
+    "answers": [
+      { "text": "Die Funkstelle in Not gebietet den nicht am Notverkehr beteiligten Funkstellen Funkstille", "is_correct": true },
+      { "text": "Der Notverkehr ist beendet", "is_correct": false },
+      { "text": "Die am Notverkehr beteiligten Funkstellen genießen Vorrang", "is_correct": false },
+      { "text": "Eine Notmeldung folgt", "is_correct": false }
+    ]
+  },
+  {
+    "id": "121",
+    "question": "Woraus besteht das Dringlichkeitszeichen im Sprechfunk?",
+    "answers": [
+      { "text": "PAN PAN", "is_correct": true },
+      { "text": "MAYDAY", "is_correct": false },
+      { "text": "SECURITE", "is_correct": false },
+      { "text": "URGENT", "is_correct": false }
+    ]
+  },
+  {
+    "id": "122",
+    "question": "Wann liegt ein Dringlichkeitsfall vor?",
+    "answers": [
+      { "text": "Wenn dringende Nachrichten übermittelt werden sollen, welche die Besatzung und/oder das Schiff betreffen, ohne dass eine unmittelbare Gefährdung gegeben ist", "is_correct": true },
+      { "text": "Wenn eine unmittelbare Gefährdung von Mensch oder Schiff gegeben ist oder eine Gefahrenabwehr an Land notwendig ist", "is_correct": false },
+      { "text": "Wenn dringende Nachrichten übermittelt werden sollen, welche den Empfang eines Notzeichens betreffen", "is_correct": false },
+      { "text": "Wenn dringende Nachrichten übermittelt werden sollen, welche die Unterstützung durch die Wasserschutzpolizei betreffen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "123",
+    "question": "Welche Meldungen können beispielsweise mit dem Dringlichkeitszeichen angekündigt werden?",
+    "answers": [
+      { "text": "Meldungen, die sich auf Krankheiten beziehen, die keine Lebensgefahr bedeuten, oder auf Schäden an Fahrzeugen, ohne dass davon eine unmittelbare Gefahr ausgeht", "is_correct": true },
+      { "text": "Meldungen, die sich auf eine unmittelbare Gefährdung von Mensch oder Schiff oder eine Gefahrenabwehr an Land beziehen", "is_correct": false },
+      { "text": "Meldungen, die sich auf Krankheiten beziehen, die keine Lebensgefahr bedeuten, oder auf Schäden an Fahrzeugen, von denen eine unmittelbare Gefahr ausgeht", "is_correct": false },
+      { "text": "Meldungen, die sich auf lebensgefährliche Krankheiten oder auf Schäden an Fahrzeugen oder Anlagen beziehen", "is_correct": false }
+    ]
+  },
+  {
+    "id": "124",
+    "question": "Welcher Funkverkehr ist einzuleiten, wenn bei einer Person an Bord eine nicht lebensbedrohliche Verletzung festgestellt wurde, die kurzfristig ärztlicher Versorgung bedarf?",
+    "answers": [
+      { "text": "Dringlichkeitsverkehr", "is_correct": true },
+      { "text": "Notverkehr", "is_correct": false },
+      { "text": "Sicherheitsverkehr", "is_correct": false },
+      { "text": "Routineverkehr", "is_correct": false }
+    ]
+  },
+  {
+    "id": "125",
+    "question": "Welcher Funkverkehr ist grundsätzlich einzuleiten, wenn das Fahrzeug einen Maschinenschaden hat, der die Sicherheit des Schiffsverkehrs gefährden könnte?",
+    "answers": [
+      { "text": "Dringlichkeitsverkehr", "is_correct": true },
+      { "text": "Notverkehr", "is_correct": false },
+      { "text": "Sicherheitsverkehr", "is_correct": false },
+      { "text": "Routineverkehr", "is_correct": false }
+    ]
+  },
+  {
+    "id": "126",
+    "question": "Wie lautet das Sicherheitszeichen im Sprechfunk?",
+    "answers": [
+      { "text": "SECURITE", "is_correct": true },
+      { "text": "MAYDAY", "is_correct": false },
+      { "text": "PAN PAN", "is_correct": false },
+      { "text": "SOS", "is_correct": false }
+    ]
+  },
+  {
+    "id": "127",
+    "question": "Welche Meldungen werden mit dem Sicherheitszeichen SECURITE angekündigt?",
+    "answers": [
+      { "text": "Nachrichten, die eine wichtige nautische Warnnachricht oder eine wichtige Wetterwarnung beinhalten", "is_correct": true },
+      { "text": "Nachrichten, die eine wichtige nautische Warnnachricht oder den Radareinsatz bei unsichtigem Wetter beinhalten", "is_correct": false },
+      { "text": "Nachrichten, die eine wichtige Wetterwarnung oder eine Warnung zur Vermeidung von Umweltschäden beinhalten", "is_correct": false },
+      { "text": "Nachrichten, die eine wichtige nautische Warnnachricht oder eine dringende medizinische Meldung beinhalten", "is_correct": false }
+    ]
+  },
+  {
+    "id": "128",
+    "question": "Welche Meldung ist zu verbreiten, wenn ein treibender Baumstamm beobachtet wird, der eine Gefahr für den Verkehr darstellt?",
+    "answers": [
+      { "text": "Sicherheitsmeldung", "is_correct": true },
+      { "text": "Notmeldung", "is_correct": false },
+      { "text": "Dringlichkeitsmeldung", "is_correct": false },
+      { "text": "keine Meldung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "129",
+    "question": "Welche Meldung ist zu verbreiten, wenn eine vertriebene Tonne beobachtet wird?",
+    "answers": [
+      { "text": "Sicherheitsmeldung", "is_correct": true },
+      { "text": "Notmeldung", "is_correct": false },
+      { "text": "Dringlichkeitsmeldung", "is_correct": false },
+      { "text": "keine Meldung", "is_correct": false }
+    ]
+  },
+  {
+    "id": "130",
+    "question": "Wer entscheidet über die Art der auszusendenden Sprechfunkmeldung?",
+    "answers": [
+      { "text": "Schiffsführer", "is_correct": true },
+      { "text": "Bediener der Funkanlage", "is_correct": false },
+      { "text": "Wasserschutzpolizei", "is_correct": false },
+      { "text": "Revierzentrale", "is_correct": false }
+    ]
+  }
+]
