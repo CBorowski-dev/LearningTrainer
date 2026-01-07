@@ -35,7 +35,7 @@ public class LearningController {
     /**
      * Displays the start page with catalog selection.
      */
-    @GetMapping("/")
+    @GetMapping("/trainer/")
     public String start() {
         logger.info("Displaying start page");
         return "start";
@@ -44,7 +44,7 @@ public class LearningController {
     /**
      * Displays a random question from the selected catalog.
      */
-    @GetMapping("/quiz")
+    @GetMapping("/trainer/quiz")
     public String quiz(
             @RequestParam QuestionType type,
             HttpSession session,
@@ -83,7 +83,7 @@ public class LearningController {
     /**
      * Checks if the submitted answer is correct.
      */
-    @PostMapping("/quiz/check")
+    @PostMapping("/trainer/quiz/check")
     @ResponseBody
     public ResponseEntity<CheckResponse> checkAnswer(
             @RequestBody CheckRequest request,

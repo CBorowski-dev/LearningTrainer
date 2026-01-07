@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
         
         // Send POST request to check answer
-        fetch('/quiz/check', {
+        fetch('/trainer/quiz/check', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (data.completed) {
                     // Quiz completed - show message and redirect to start
                     alert(data.message || 'Congratulations! You have completed all questions!');
-                    window.location.href = '/';
+                    window.location.href = '/trainer/';
                 } else {
                     // Correct answer - load next question
-                    window.location.href = '/quiz?type=' + request.type;
+                    window.location.href = '/trainer/quiz?type=' + request.type;
                 }
             } else {
                 // Wrong answer - show alert and allow retry
