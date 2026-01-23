@@ -56,9 +56,11 @@ public class QuestionLoader {
      * Loads questions from a JSON file.
      */
     private List<Question> loadQuestionFile(String filename) throws IOException {
-        ClassPathResource resource = new ClassPathResource(filename);
+        System.out.println("filename : " + filename);
+        // ClassPathResource resource = new ClassPathResource(filename);
         
-        try (InputStream inputStream = resource.getInputStream()) {
+        // try (InputStream inputStream = resource.getInputStream()) {
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(filename)) {
             return objectMapper.readValue(inputStream, new TypeReference<List<Question>>() {});
         }
     }

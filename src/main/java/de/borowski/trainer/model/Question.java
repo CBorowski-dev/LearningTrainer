@@ -13,4 +13,8 @@ public record Question(
     String id,
     String question,
     List<Answer> answers
-) {}
+) {
+    public Question() {
+        this("-", "-", null);
+    }
+}

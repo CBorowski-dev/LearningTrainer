@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>25</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -60,8 +60,26 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.graalvm.buildtools</groupId>
+				<artifactId>native-maven-plugin</artifactId>
+				<configuration>
+					<buildArgs>
+					<arg>-H:ResourceConfigurationFiles=${project.basedir}/src/main/resources/resources-config.json</arg>
+					</buildArgs>
+				</configuration>
+			</plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<image>
+						<builder>paketobuildpacks/builder-jammy-buildpackless-tiny</builder><!--required for AArch64/M1 support -->
+						<buildpacks>
+							<buildpack>paketobuildpacks/oracle</buildpack>
+							<buildpack>paketobuildpacks/java-native-image</buildpack>
+						</buildpacks>
+					</image>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

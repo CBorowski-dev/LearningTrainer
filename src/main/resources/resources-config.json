@@ -1,0 +1,12 @@
+{
+  "resources": {
+    "includes": [
+        {
+        "pattern": "SRC-Fragenkatalog\\.json"
+        },
+        {
+        "pattern": "UBI-Fragenkatalog\\.json"
+        }
+    ]
+    }
+}
