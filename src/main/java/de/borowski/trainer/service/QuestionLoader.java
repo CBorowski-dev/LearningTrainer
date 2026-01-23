@@ -7,6 +7,7 @@ import de.borowski.trainer.model.QuestionType;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.aot.hint.annotation.RegisterReflectionForBinding;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +21,7 @@ import java.util.Map;
  * Service responsible for loading and caching question catalogs from JSON files.
  */
 @Service
+@RegisterReflectionForBinding({ Question.class })
 public class QuestionLoader {
     
     private static final Logger logger = LoggerFactory.getLogger(QuestionLoader.class);
@@ -57,10 +59,9 @@ public class QuestionLoader {
      */
     private List<Question> loadQuestionFile(String filename) throws IOException {
         System.out.println("filename : " + filename);
-        // ClassPathResource resource = new ClassPathResource(filename);
+        ClassPathResource resource = new ClassPathResource(filename);
         
-        // try (InputStream inputStream = resource.getInputStream()) {
-        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(filename)) {
+        try (InputStream inputStream = resource.getInputStream()) {
             return objectMapper.readValue(inputStream, new TypeReference<List<Question>>() {});
         }
     }
