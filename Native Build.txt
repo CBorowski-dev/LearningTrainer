@@ -1,0 +1,18 @@
+// Spring Boot Anwendung starten
+./mvnw spring-boot:run
+
+// Docker image erstellen aus jar (Achtung: korrektes Dockerfile nutzen)
+docker build -t springboot/trainer -f Dockerfile_jar .
+
+// Docker image erstellen aus executable (Achtung: korrektes Dockerfile nutzen)
+docker build -t trainer -f Dockerfile_native . 
+
+// Docker image exportieren
+docker save springboot/trainer | gzip > trainer.tar.gz
+
+// Docker image starten
+docker run -p 8080:8080 -it f26e9230154e
+
+
+https://www.graalvm.org/latest/reference-manual/native-image/guides/build-spring-boot-app-into-native-executable/
+

@@ -64,7 +64,7 @@
 				<artifactId>native-maven-plugin</artifactId>
 				<configuration>
 					<buildArgs>
-					<arg>-H:ResourceConfigurationFiles=${project.basedir}/src/main/resources/resources-config.json</arg>
+						<arg>-H:ResourceConfigurationFiles=${project.basedir}/src/main/resources/resource-config.json</arg>
 					</buildArgs>
 				</configuration>
 			</plugin>
