@@ -60,11 +60,12 @@
 	<build>
 		<plugins>
 			<plugin>
+				<!-- The Maven plugin for GraalVM Native Image adds support for building and testing native images-->
 				<groupId>org.graalvm.buildtools</groupId>
 				<artifactId>native-maven-plugin</artifactId>
 				<configuration>
 					<buildArgs>
-						<arg>-H:ResourceConfigurationFiles=${project.basedir}/src/main/resources/resource-config.json</arg>
+						<arg>-H:ResourceConfigurationFiles=${project.basedir}/src/main/resources/resource-config.json -march=x86-64-v2</arg>
 					</buildArgs>
 				</configuration>
 			</plugin>
@@ -73,9 +74,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<builder>paketobuildpacks/builder-jammy-buildpackless-tiny</builder><!--required for AArch64/M1 support -->
+						<builder>paketobuildpacks/builder-jammy-buildpackless-tiny</builder>
 						<buildpacks>
-							<buildpack>paketobuildpacks/oracle</buildpack>
+							<!-- Buildpack for Java Native Image is a Cloud Native Buildpack with
+							     an order definition suitable for Java native image applications -->
 							<buildpack>paketobuildpacks/java-native-image</buildpack>
 						</buildpacks>
 					</image>
