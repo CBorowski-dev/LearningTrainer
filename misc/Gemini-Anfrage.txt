@@ -1,0 +1,33 @@
+Generate a plan to implement web-based learning software.
+
+Technological details:
+- Java 21
+- SpringBoot 4.0.1
+- Maven as a build tool
+- Thymeleaf as a template engine
+- Web UI
+- no authentication
+- no authorization
+- The application does not write any data itself, but only reads it from two JSON files (UBI-Fragenkatalog.json and SRC-Fragenkatalog.json in /src/main/resources)
+- After implementation, a Docker image of the application should be created
+
+The JSON data consists of an array of the following entities: 
+
+  {
+    "id": "1",
+    "question": "Was ist Binnenschifffahrtsfunk?",
+    "answers": [
+      { "text": "Internationaler mobiler UKW/VHF- Sprechfunkdienst auf Binnenschifffahrtsstraßen", "is_correct": true },
+      { "text": "Nationaler mobiler UKW/VHF-Sprechfunkdienst auf Binnenschifffahrtsstraßen", "is_correct": false },
+      { "text": "Internationales UKW/VHF-Sprechfunkverfahren im Binnenbereich", "is_correct": false },
+      { "text": "Nationales UKW/VHF-Sprechfunkverfahren im Binnenbereich", "is_correct": false }
+    ]
+  }
+
+UI details:
+- There are two masks that the user can move between: a start mask and a query mask
+- Start mask: The user has two buttons to choose from. The buttons are placed one below the other and are the same width. The first button has the text “UBI Fragenkatalog”” and the second button has the text “SRC Fragenkatalog”. When you click on the first button, the data from the UBI-Fragenkatalog.json file is loaded. When you click on the second button, the data from the UBI-Fragenkatalog.json file is loaded. After clicking a button and loading the associated data, the user is redirected to the query mask.
+- Query mask: The system randomly selects a question and the associated answers from the loaded data (questions with the associated answers) and presents them to the user. At the top is the question and some distance below are the four answers. The answers are displayed in a random order. Before each answer there is a box to tick. Initially all fields are empty and the user can only tick one box at a time. If he places another tick, the previously placed tick is automatically deleted. The ticks implement a radio button behavior. Below the answers there is the “Check” button. This button may only be active if the user has checked the box. Otherwise the button is deactivated. When the user clicks the "Check" button, the system checks whether the check mark is checked for the correct answer. To do this, it checks whether the is_correct attribute on the selected answer is set to true. If this is not the case, the system informs the user via dialog that this is the wrong answer. The user must close the dialog with the "Ok" button and find the correct answer. If the user has selected the correct answer (the check mark is correctly placed), then the system randomly selects another question and the associated answers and presents it to the user.
+- There is a “Cancel” button at the bottom of the query mask. If the user clicks on this button, he will be taken back to the start screen.
+
+If something is not clear, then do not work with assumptions, but rather ask specific questions.

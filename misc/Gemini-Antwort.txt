@@ -1,0 +1,128 @@
+This plan outlines the implementation of your web-based learning software using the specified modern Java stack. Since you are using Spring Boot 4.0.1 (a future-leaning version) and Java 21, we will utilize virtual threads and the latest Spring conventions.
+1. Project Architecture & Setup
+
+The application will follow a standard Spring Boot MVC pattern, using a Service layer to handle the JSON parsing and randomized question logic.
+Dependency Management (pom.xml)
+
+    Parent: spring-boot-starter-parent (4.0.1)
+
+    Dependencies:
+
+        spring-boot-starter-web: For the RESTful controllers and embedded Tomcat.
+
+        spring-boot-starter-thymeleaf: To render the HTML masks.
+
+        jackson-databind: For parsing the JSON resource files.
+
+        lombok: (Optional but recommended) to reduce boilerplate for the Question/Answer POJOs.
+
+Data Models
+
+We will define two main records (or classes) to map the JSON structure:
+
+    Answer: String text, boolean isCorrect
+
+    Question: String id, String question, List<Answer> answers
+
+2. Implementation Phases
+Phase 1: Data Access Layer
+
+We will create a QuestionService that loads the JSON files from /src/main/resources during the application startup using @PostConstruct.
+
+    Logic: Use ObjectMapper to read the files into two distinct List<Question> objects.
+
+    Randomization: A method getRandomQuestion(String catalogType) will handle the selection of a random question and shuffle the answers list before returning it to the UI.
+
+Phase 2: Controller & Routing
+
+A LearningController will manage the transitions between the two masks:
+
+    GET /: Returns the start view.
+
+    GET /quiz: Accepts a parameter (e.g., type=UBI) to determine which list to pull from, selects a random question, and returns the query view.
+
+    POST /quiz/check: Receives the selected answer index. Since we aren't saving state, we will likely pass the current question ID back to the server to verify the answer.
+
+Phase 3: UI Development (Thymeleaf)
+
+    Start Mask:
+
+        Centered layout with two full-width buttons.
+
+        Both buttons link to the /quiz route with a query parameter.
+
+    Query Mask:
+
+        The question text is displayed as a header.
+
+        Answers are rendered as a list of radio-style inputs.
+
+        JavaScript Logic: A small script will listen for changes on the radio buttons to enable the "Check" button.
+
+        Validation: When "Check" is clicked, if the answer is wrong, a standard browser alert() or a hidden HTML dialog (modal) will appear with the "Ok" button. If correct, the page reloads to fetch a new random question.
+
+3. Dockerization
+
+Once the Maven build creates the .jar file, we will use a multi-stage Dockerfile to keep the image slim.
+Dockerfile
+
+# Stage 1: Build
+FROM maven:3.9.6-eclipse-temurin-21 AS build
+COPY . /app
+WORKDIR /app
+RUN mvn clean package -DskipTests
+
+# Stage 2: Runtime
+FROM eclipse-temurin:21-jre-jammy
+COPY --from=build /app/target/*.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+
+
+-------------------------
+ Questions to your answers.
+
+1. When the user klicks on "Ok" on the dialog, then the selected radio button should remain selected.
+
+2. Yes, the system should keep track of which questions have already been answered to avoid repeats in a single session. 
+-------------------------
+
+Technical Implementation Plan
+1. Project Structure
+
+The project will be organized into a standard Spring Boot structure:
+
+    src/main/java/.../model: POJOs for Question and Answer.
+
+    src/main/java/.../service: Logic for reading JSON and managing the quiz state.
+
+    src/main/java/.../controller: Mapping the web routes.
+
+    src/main/resources/templates: Thymeleaf HTML files (start.html, query.html).
+
+    src/main/resources/static: CSS for layout and JavaScript for the "Check" button logic.
+
+2. State Management (Avoiding Repeats)
+
+Since the app doesn't write to a database, we will use the HttpSession to store a Set<String> of answered question IDs.
+
+Logic Flow:
+
+    User selects a catalog.
+
+    The system filters the list of questions: allQuestions.stream().filter(q -> !sessionSet.contains(q.getId())).
+
+    A random question is picked from the remaining list.
+
+    If the user answers correctly, the ID is added to the session set.
+
+    If all questions are answered, the session set is cleared or the user is redirected back to the start with a "Completed" message.
+
+3. Component Architecture
+Component	Responsibility
+QuestionLoader	Reads UBI-Fragenkatalog.json and SRC-Fragenkatalog.json on startup using Jackson.
+QuizService	Handles the randomization, shuffling of answers, and filtering out already-answered questions.
+LearningController	Manages navigation. POST /check will validate the answer and return a JSON response (success/failure) for the UI to display the dialog.
+Thymeleaf UI	Uses JavaScript to: 1. Toggle the "Check" button state. 2. Show the "Wrong Answer" dialog. 3. Redirect on "Ok" or "Correct".
+
+In the query mask, to implement the "radio button behavior" where only one box is ticked at a time and the button enables/disables, I will use a standard HTML <input type="radio"> group. This natively handles the "one tick only" requirement and simplifies the "Check" button activation logic.
